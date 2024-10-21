@@ -3,7 +3,7 @@
         'name' => 'usuario/app-salon_php_mvc_js_sass',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5057e2725d3c0710f4f5f6ddb515be9b50869bc0',
+        'reference' => '1c54a37ed27d20cd0180a1b533f9081c7c7810ce',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -67,7 +67,7 @@
         'usuario/app-salon_php_mvc_js_sass' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5057e2725d3c0710f4f5f6ddb515be9b50869bc0',
+            'reference' => '1c54a37ed27d20cd0180a1b533f9081c7c7810ce',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
