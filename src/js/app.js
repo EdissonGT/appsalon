@@ -121,7 +121,7 @@ function paginaSiguiente() {
 
 async function consultarAPI() {
     try {
-        const url = '/api/servicios';
+        const url = 'http://3.19.158.127/api/servicios';
         const resultado = await fetch(url);
         const servicios = await resultado.json();
         
@@ -135,7 +135,7 @@ async function consultarAPI() {
 
 async function consultarProductosAPI() {
     try {
-        const url = '/api/productos'; // URL para la API de productos
+        const url = 'http://3.19.158.127/api/productos'; // URL para la API de productos
         const resultado = await fetch(url);
         const productos = await resultado.json();
         mostrarProductos(productos); // Llama a una función para mostrar los productos
@@ -147,7 +147,7 @@ async function consultarProductosAPI() {
 
 async function consultarPromocionesAPI() {
     try {
-        const url = '/api/promociones'; // URL para la API de productos
+        const url = 'http://3.19.158.127/api/promociones'; // URL para la API de productos
         const resultado = await fetch(url);
         const promociones = await resultado.json();
         mostrarPromociones(promociones); // Llama a una función para mostrar los productos
@@ -258,8 +258,8 @@ function seleccionarProducto(producto) {
 async function mostrarPromociones(promociones) {
     try {
         // Obtener productos y servicios de sus respectivas APIs
-        const urlProductos = '/api/productos';
-        const urlServicios = '/api/servicios';
+        const urlProductos = 'http://3.19.158.127/api/productos';
+        const urlServicios = 'http://3.19.158.127/api/servicios';
 
         // Obtener los productos y servicios
         const [productosRes, serviciosRes] = await Promise.all([
