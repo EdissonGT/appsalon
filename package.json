@@ -1,13 +1,13 @@
 {
   "name": "app-salon-php-mvc-sass",
   "version": "1.0.0",
-  "description": "AppSalon - Curso Desarrollo web Completo",
-  "author": "Juan De la torre @codigoconjuan",
+  "description": "AppSalon",
+  "author": "Victor Vasquez, Gustavo Zepeda, Edisson Payes, Javi",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp build",
+    "build": "gulp build && webpack --config webpack.config.js",
     "test": "echo \"No tests available\""
   },
   "license": "ISC",
