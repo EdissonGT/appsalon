@@ -65,6 +65,9 @@ export function watchArchivos() {
   watch(paths.imagenes, versionWebp);
 }
 
+
+
+
 // Tareas que pueden ser ejecutadas desde la terminal
 export const build = parallel(css, javascript, imagenes, versionWebp);
 export const dev = series(build, watchArchivos);
