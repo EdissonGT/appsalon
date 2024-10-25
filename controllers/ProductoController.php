@@ -26,8 +26,6 @@ class ProductoController {
         $producto = new Producto;
         $alertas = [];
 
-        // Obtener los tipos de descuentos
-        $promociones = Promocion::all();
         $marcas = Marca::all();
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -59,8 +57,6 @@ class ProductoController {
         $producto = Producto::find($_GET['id']);
         $alertas = [];
 
-        // Obtener los tipos de descuentos
-        $promociones = Promocion::all();
         $marcas = Marca::all();
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {

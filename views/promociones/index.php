@@ -31,10 +31,10 @@
                     <div class="d-flex justify-content-between">
                         <a class="btn btn-primary" href="/promociones/actualizar?id=<?php echo $promocion->id; ?>">Actualizar</a>
 
-                        <form action="/promociones/eliminar" method="POST">
+                        <!-- <form action="/promociones/eliminar" method="POST">
                             <input type="hidden" name="id" value="<?php echo $promocion->id; ?>">
                             <input type="submit" value="Borrar" class="btn btn-danger">
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>

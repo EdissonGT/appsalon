@@ -3,7 +3,7 @@
 namespace Model;
 
 class AdminCita extends ActiveRecord {
-    protected static $tabla = 'citasServicios';
+    protected static $tabla = 'citasservicios';
     protected static $columnasDB = ['id', 'hora','fecha', 'cliente', 'email', 'telefono', 'servicio', 'precio', 'nombrePro', 'precioPro', 'descripcion_promocion', 'precio_promocion'];
 
     public $id;

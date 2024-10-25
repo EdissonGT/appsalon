@@ -61,7 +61,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    height: 350px; /* Fijar altura para que las tarjetas sean uniformes */
+    height: 370px; /* Fijar altura para que las tarjetas sean uniformes */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
