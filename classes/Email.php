@@ -30,7 +30,7 @@ class Email {
         $mail->addAddress('cuentas@appsalon.com', 'AppSalon.com');
         $mail->Subject = 'Confirma tu Cuenta';
 
-        // Set HTML
+        // Set HTML CAMBIO
         $mail->isHTML(TRUE);
         $mail->CharSet = 'UTF-8';
 
